@@ -14,6 +14,8 @@
 		62D635401A69DA7500197009 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D6353F1A69DA7500197009 /* Images.xcassets */; };
 		62D635431A69DA7500197009 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62D635411A69DA7500197009 /* LaunchScreen.xib */; };
 		62D6354F1A69DA7500197009 /* tipcalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D6354E1A69DA7500197009 /* tipcalculatorTests.m */; };
+		62D6355B1A69DCCD00197009 /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D635591A69DCCD00197009 /* TipViewController.m */; };
+		62D6355C1A69DCCD00197009 /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62D6355A1A69DCCD00197009 /* TipViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		62D635481A69DA7500197009 /* tipcalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipcalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D6354D1A69DA7500197009 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62D6354E1A69DA7500197009 /* tipcalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tipcalculatorTests.m; sourceTree = "<group>"; };
+		62D635581A69DCCD00197009 /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
+		62D635591A69DCCD00197009 /* TipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
+		62D6355A1A69DCCD00197009 /* TipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,9 @@
 				62D6353F1A69DA7500197009 /* Images.xcassets */,
 				62D635411A69DA7500197009 /* LaunchScreen.xib */,
 				62D635321A69DA7500197009 /* Supporting Files */,
+				62D635581A69DCCD00197009 /* TipViewController.h */,
+				62D635591A69DCCD00197009 /* TipViewController.m */,
+				62D6355A1A69DCCD00197009 /* TipViewController.xib */,
 			);
 			path = tipcalculator;
 			sourceTree = "<group>";
@@ -201,6 +209,7 @@
 			files = (
 				62D6353E1A69DA7500197009 /* Main.storyboard in Resources */,
 				62D635431A69DA7500197009 /* LaunchScreen.xib in Resources */,
+				62D6355C1A69DCCD00197009 /* TipViewController.xib in Resources */,
 				62D635401A69DA7500197009 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +230,7 @@
 			files = (
 				62D6353B1A69DA7500197009 /* ViewController.m in Sources */,
 				62D635381A69DA7500197009 /* AppDelegate.m in Sources */,
+				62D6355B1A69DCCD00197009 /* TipViewController.m in Sources */,
 				62D635351A69DA7500197009 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tipcalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -356,6 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tipcalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
